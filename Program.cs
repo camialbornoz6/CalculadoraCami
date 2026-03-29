@@ -10,6 +10,18 @@ namespace CalculadoraCami
     {
         static void Main(string[] args)
         {
+
+        }
+         public static void Sumar(double a, double b)
+        {
+            double resultado = a + b;
+            Console.WriteLine($"El resultado de la suma es: {resultado}");
+        }
+        public static void Multiplicar(double a, double b)
+        {
+            double resultado = a * b;
+            Console.WriteLine($"El resultado de la multiplicación es: {resultado}");
         }
     }
+ 
 }
